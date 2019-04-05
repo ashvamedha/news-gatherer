@@ -1,0 +1,22 @@
+{
+  "name": "news-gatherer",
+  "version": "0.0.0",
+  "description": "Script to get and log RSS feeds",
+  "keywords": [],
+  "author": "Pankaj Kumar <pankaj.kumar@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/node": "^8.0.28",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.4.1"
+  },
+  "dependencies": {
+    "node-fetch": "^2.3.0",
+    "dotenv": "^7.0.0"
+  }
+}
