@@ -6,4 +6,10 @@ export const FEEDS = [
     'https://www.ft.com/?format=rss',
 ];
 
+export const BARCHART_URLS = [
+    'https://www.barchart.com/news/zacks',
+    'https://www.barchart.com/news/pr-newswire',
+    'https://www.barchart.com/news/associated-press',
+];
+
 export const DATADIR = `${process.env.HOME}/dumps/ime`;
