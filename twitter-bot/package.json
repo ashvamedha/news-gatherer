@@ -1,0 +1,17 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "A program to get news items from twitter",
+  "main": "index.js",
+  "author": "pankaj.kumar@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^11.13.8",
+    "@types/twitter": "^1.7.0",
+    "dotenv": "^7.0.0",
+    "node-fetch": "^2.4.1",
+    "ts-node": "^8.1.0",
+    "twitter": "^1.7.1",
+    "typescript": "^3.4.5"
+  }
+}

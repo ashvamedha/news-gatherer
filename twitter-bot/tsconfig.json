@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target":"es5",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "outDir": ".build",
+    "lib": ["es6", "dom", "esnext"]
+  },
+  "exclude": [
+    "node_modules",
+    ".build"
+  ]
+}
