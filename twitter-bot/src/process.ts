@@ -1,8 +1,8 @@
 import { TweetDumpProcessor } from './TweetDumpProcessor';
+import { DATADIR } from '../config/config';
 
-const BASEDIR = '/Users/pankajk/dumps/ime';
 async function main() {
-    const fdp = new TweetDumpProcessor(BASEDIR);
+    const fdp = new TweetDumpProcessor(DATADIR);
     await fdp.processAllDumps();
 }
 
